@@ -1,6 +1,91 @@
 /* HEADER */
 
+/* Navegação */
 header{
     display: flex;
-    border: 1px solid red;
+    justify-content: space-between;
+
+    img{
+        width: 15%;
+    }
+    nav{
+        margin-left: 6em;
+    }
+    nav ul{
+        display: flex;
+        border-bottom-left-radius: 100px;
+
+        li:first-child {
+            border-bottom-left-radius: 25px; 
+
+        }
+        li:last-child{
+            border-top-right-radius: 15px; 
+
+        }
+
+        li{
+            border: 1px solid white;
+            padding: 1em 2em;
+            background: #101D44;
+            color: white;
+        }
+    }
+
+    button{
+        height: 100%;
+        padding: 1em 3em ;
+        border-bottom-left-radius: 50px;
+        background: #C26522;
+        border: none;
+        color: white;
+        font-size: 1.15em;
+
+
+    }
+}
+
+/* CHAMADA PRINCIPAL */
+
+.container-header{
+    display: flex;
+
+    .content-txt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 2.5em;
+        padding-left: 2em;
+
+        h1{
+            font-size: 3.8em;
+            color: #0c101d;
+        }
+
+        p{
+            margin: 1.2em 0;
+            width: 70%;
+            font-size: 1.2em;
+            color: #0c101dd2;
+
+        }
+
+        button{
+            background: #101D44;
+            border: none;
+            padding: 1em 7em;
+            border-radius: 50px;
+            color: white;
+            font-size: 1em;
+            transform: translateX(-40%);
+        }
+    }
+    .content-img{
+        padding-right: 10em;
+
+        img{
+            width: 120%;
+        }
+    }
 }
