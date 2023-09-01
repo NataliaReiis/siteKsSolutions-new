@@ -1,5 +1,5 @@
 import Logo from '../assets/img/logomarca1.png';
-import Home from  '../assets/img/img-home.png'
+import Home from  '../assets/img/img-home1.png'
 export default function Header() {
     return(
     <>
