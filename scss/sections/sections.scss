@@ -77,11 +77,11 @@ header {
         button {
             background: #101D44;
             border: none;
-            padding: 1em 7em;
+            padding: 1em 5em;
             border-radius: 50px;
             color: white;
             font-size: 1em;
-            transform: translateX(-40%);
+            margin-left: 40px;
         }
     }
 
@@ -322,20 +322,21 @@ header {
     width: auto;
     margin-left: 10%;
     padding-top: 2em;
+    border: 1px solid red;
 
 
     .scroll-content {
         position: relative;
         display: grid;
         grid-auto-flow: column;
-        grid-gap: 40px;
         transition: transform 0.5s ease-in-out;
         z-index: 2;
 
         .section {
-            width: 30%;
+            width: auto;
             display: flex;
-
+            margin: 0 1em;
+            
             .foto img {
                 width: 100%;
                 margin-right: 0.8em;
@@ -384,3 +385,107 @@ header {
 
     }
 }
+
+/* FORM */
+
+.form{
+    background: #0c1530;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    h2{
+      color: white;
+      font-size: 3em;
+      font-weight: 400;
+      margin: 0.85em;
+    }
+  
+    .infos{
+     padding: 1em 0;
+     display: flex;
+  
+     span {
+      margin-right: 1em;
+  
+      label{
+        color: white;
+       
+      }
+      input{
+        display: flex;
+        outline: none;
+        height: 2em;
+        border-radius: 20px;
+        margin-top: 1em;
+        border: none;
+  
+       }
+     }
+    }
+  
+    .txt{
+      display: flex;
+      flex-direction: column;
+      margin: 1em 0;
+  
+      label{
+        color: white;
+        
+      }
+     textarea {
+        outline: none;
+        margin-top: 1em;
+        border-radius: 8px ;
+      }
+    }
+  
+    button{
+      margin: 1em;
+      align-self: center;
+      padding: 1em;
+      width: 10em;
+      border-radius: 50px;
+      border: none;
+      background-color: #2B9790;
+      color: white;
+      cursor: pointer;
+     
+    }
+  }
+  
+  /* FOOTER */
+
+  .footer{
+    margin: 4em 0 0 0;
+    padding: 1em;
+    background: #0b152f;
+    min-height: auto;
+    width: 100%;
+    color: white;
+
+    .content-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 6em;
+
+        .logofooter{
+            padding-left:  5%;
+
+        }
+    }
+
+
+    .copy {
+       margin-top: 2em;
+
+       p{
+        text-align: center;
+        font-size: 0.75em;
+       } 
+    }
+  }

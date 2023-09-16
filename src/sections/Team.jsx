@@ -1,29 +1,33 @@
-import { useState } from "react"
+import { useState } from "react";
+import ContentTeam from "../sections/ContentTeam.jsx";
+import Modelo from "../assets/img/modelo.png"
 
-export default function Team(props) {
+    
+
+export default function Team() {
+
+   const handleClickLeft = () => {
+
+    }
+   const handleClickRight = () => {
+
+    }
     return (
         <>
             <h1 className="title-colab">Conheça nosso time</h1>
             <section className="scroll-container ">
                 <div className="scroll-content">
-
-                    <div className="section">
-                        <div className="foto">
-                         <img src={props.image} alt="" />
-                        </div>
-                        <div className="description-colabs">
-                            <h3>{props.title}</h3>
-                            <h4>{props.cargo}</h4>
-                            <p>{props.description}</p>
-                        </div>
-                    </div>
-
+                    <ContentTeam image={Modelo} title="Sheila Tirony" cargo="Gerente de projeto" description= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum illo cumque quidem"  />
+                    <ContentTeam image={Modelo} title="Sheila Tirony" cargo="Gerente de projeto" description= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum illo cumque quidem"   />
+                    <ContentTeam image={Modelo} title="Sheila Tirony" cargo="Gerente de projeto" description= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum illo cumque quidem"   />
+                    <ContentTeam image={Modelo} title="Sheila Tirony" cargo="Gerente de projeto" description= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum illo cumque quidem"   />
+                    <ContentTeam image={Modelo} title="Sheila Tirony" cargo="Gerente de projeto" description= "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum illo cumque quidem"   />
                 </div>
             </section>
 
             <div className="button-scroll">
-                <button id="left">oi</button>
-                <button id="right">oi</button>
+                <button onClick={() => {}}>oi</button>
+                <button onClick={() => {}}>oi</button>
             </div>
 
         </>
