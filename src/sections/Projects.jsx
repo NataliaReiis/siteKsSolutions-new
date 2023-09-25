@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="projects animate">
+      <div id="projects" className="projects animate">
         <div className="container animate">
           {sections.map((section, index) => (
             <div

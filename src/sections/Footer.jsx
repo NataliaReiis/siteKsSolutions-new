@@ -1,4 +1,6 @@
-import LogoFooter from '../assets/img/logo-branca.png'
+import LogoFooter from '../assets/img/logo-branca.png';
+import {FaLinkedinIn, FaInstagram, FaFacebookF } from "react-icons/fa6";
+
 
 export default function Footer(){
     return(
@@ -7,13 +9,16 @@ export default function Footer(){
                 <div className="content-footer"> 
                     <div className="sociais">
                         <h4>Redes Sociais: </h4>
+                        <FaLinkedinIn />
+                        <FaInstagram />
+                        <FaFacebookF />
                     </div>
                     <div className="logofooter">
                         <img src={LogoFooter} alt="" />
                     </div>
                     <div className="contatos">
-                      <p>(00) 00000-0000</p>
-                      <p>Kssolutions@gmail.com</p>
+                      <p>(71) 2137-1247</p>
+                      <p>comercial@kssolutions.tech</p>
                       <p>Salvador-Ba</p>
                     </div>
                 </div>

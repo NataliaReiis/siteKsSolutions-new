@@ -9,6 +9,7 @@ export default function Form(){
     return (   
      <div className="form">
         <h2>Nos envie uma mensagem...</h2>
+        <h4>"Desenvolvendo Soluções Tecnológicas para o Futuro, Juntos Rumo à Excelência e Inovação"</h4>
         <form onSubmit={handleSubmit}>
             <div className="infos">
                 <span>

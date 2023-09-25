@@ -8,7 +8,7 @@ import Icon7 from '../assets/img/icon7.png'
 export default function About() {
     return (
         <>
-            <div className="container-about">
+            <div id="about" className="container-about">
                 <div className="image-about">
                     <img src={Valores} alt="" />
                 </div>

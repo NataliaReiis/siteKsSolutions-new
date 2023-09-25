@@ -11,7 +11,7 @@ export default function ContentTeam(props){
                             <h4>{props.cargo}</h4>
                             <p>{props.description}</p>
                         </div>
-                    </div>
+                </div>
         </>
     )
 }
